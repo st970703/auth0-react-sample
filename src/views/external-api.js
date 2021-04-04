@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { Highlight, Loading } from "../components";
+import { withAuthenticationRequired, useAuth0 } from "@auth0/auth0-react";
 
 const ExternalApi = () => {
   const [message, setMessage] = useState("");
+  const serverUrl = process.env.REACT_APP_SERVER_URL;
 
   return (
     <div>
