@@ -20,7 +20,7 @@ Populate `.env` as follows:
 
 ```bash
 SERVER_PORT=6060
-CLIENT_ORIGIN_URL=http://localhost:3000
+CLIENT_ORIGIN_URL=http://localhost:4040
 AUTH0_AUDIENCE=
 AUTH0_DOMAIN=
 ```
